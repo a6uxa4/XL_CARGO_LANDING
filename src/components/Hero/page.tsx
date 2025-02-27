@@ -1,25 +1,33 @@
 import React from 'react';
+import Container from "@/components/Container/page";
 
 const Hero = () => {
     return (
         <div>
-            <div className=" p-20 bg-cover" style={{backgroundImage:`url('/express.png')`}}>
-                <h1 className="text-[60px] text-center leading-1 font-semibold text-white
-                sm:text-[30px]">ДОСТАВКА ТОВАРОВ ИЗ КИТАЯ ПО
-                    САМЫМ <br/> БЫСТРЫМ СРОКАМ</h1>
 
-                <p className="text-white text-center text-[40px] font-normal mt-5 sm:text-[20px]">
-                    Регистрируйся и получи свой код склада в Китае. Выкупай <br/>
-                    товары Оптом и Розницу самостоятельно или с помощью <br/>
-                    нашей компании, отслеживай их по трек номеру. Мы доставим <br/>
-                    ваши товары в Кыргызстан безопасно за самый короткий срок!
-                </p>
+            <div className="relative p-20 bg-cover bg-[center_70%] after:absolute after:inset-0 after:bg-black/50 " style={{backgroundImage: `url('/cargoxl.jpg')`}}>
+                <Container>
+                    <div className="absolute inset-0 bg-black/20"></div>
 
-                <div className="text-center mt-[20px]">
-                    <button className="py-[15px] px-[70px] rounded-[50px] bg-white text-[35px] font-bold text-green-900
-                    hover:text-white hover:bg-green-900 hover:transition-all sm:text-[25px]">ОТСЛЕЖИВАНИЕ</button>
-                </div>
+                    <h1 className="text-center leading-none font-extrabold text-white z-10 relative
+                    sm:text-[25px] md:text-[26px] lg:text-[33px] xl:text-[50px]">ДОСТАВКА ТОВАРОВ ИЗ КИТАЯ ПО
+                        САМЫМ <br/> БЫСТРЫМ СРОКАМ</h1>
 
+                    <p className="text-white text-center font-normal z-10 relative my-10
+                    sm:text-[16px] sm:my-5 md:text-[20px]  lg:text-[27px] lg:my-10 xl:text-[30px]">
+                        Регистрируйся и получи свой код склада в Китае. Выкупай <br/>
+                        товары Оптом и Розницу самостоятельно или с помощью <br/>
+                        нашей компании, отслеживай их по трек номеру. Мы доставим <br/>
+                        ваши товары в Кыргызстан безопасно за самый короткий срок!
+                    </p>
+
+                    <div className="text-center z-10 relative">
+                        <a href="https://api.whatsapp.com/send/?phone=996225905055&text&type=phone_number&app_absent=0"
+                           className="md:py-[20px] md:px-[70px] rounded-[50px] bg-white md:text-[20px] lg:text-[35px] font-bold text-green-900
+                           hover:text-white hover:bg-green-900 hover:transition-all sm:text-[16px] sm:py-3 sm:px-5 " >связываться с менеджером
+                        </a>
+                    </div>
+                </Container>
             </div>
         </div>
     );
