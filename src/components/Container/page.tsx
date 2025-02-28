@@ -1,7 +1,12 @@
+import {ReactNode} from "react";
 
-const Container = ({ children }) => {
+
+interface IProps{
+    children:ReactNode
+}
+const Container = ({ children }:IProps) => {
     return (
-        <div className="max-w-[1280px] w-full sm:max-w-[640px] md:max-w-[768px] lg:max-w-[1024px] xl:max-w-[1280px] mx-auto">
+        <div className="max-w-[1335px] w-full sm:max-w-[640px] md:max-w-[768px] lg:max-w-[1024px] xl:max-w-[1280px] mx-auto">
             {children}
         </div>
     );
