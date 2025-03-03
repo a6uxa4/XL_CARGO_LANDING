@@ -53,7 +53,7 @@ const Redemption = () => {
                             <Image
                                 src="/clock.svg"
                                 alt="svg"
-                                className="text-white lg:w-[150px]"
+                                className="text-white lg:w-[150px] xs:w-[130px] sm:w-[150px]"
                                 width={150}
                                 height={150}
                             />                            <div>
