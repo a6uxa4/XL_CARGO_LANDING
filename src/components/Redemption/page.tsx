@@ -68,8 +68,6 @@ const Redemption = () => {
                             </div>
                         </div>
                     </div>
-
-
                 </div>
             </Container>
 

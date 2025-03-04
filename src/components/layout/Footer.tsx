@@ -28,14 +28,14 @@ const Footer = () => {
 
                 </nav>
                 <nav className="flex gap-4 text-[30px] cursor-pointer">
-                    <a href="https://t.me/+Yn4OkYESMvU5Mjky" className="text-white">
+                    <a href="https://t.me/semeteevnurs" className="text-white">
                         <FaTelegram/>
                     </a>
-                    <a href="https://api.whatsapp.com/send/?phone=996225905055&text&type=phone_number&app_absent=0"
+                    <a href="https://wa.me/996702155255"
                        className="text-white">
                         <IoMdCall/>
                     </a>
-                    <a href="https://www.instagram.com/ades_express_cargo/?igshid=NzZlODBkYWE4Ng%3D%3D"
+                    <a href="https://www.instagram.com/xlcargo.kg/"
                        className="text-white">
                         <FaInstagram/>
                     </a>
