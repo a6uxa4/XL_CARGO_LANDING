@@ -13,7 +13,7 @@ const Footer = () => {
                 <Image
                     src="/logo.svg"
                     alt="Logo"
-                    width={150}
+                    width={100}
                     height={100}
                 />
                 <nav className="flex items-center gap-10 text-white sm:py-5 lg:py-0 sm:leading-none md:leading-5">
@@ -21,7 +21,7 @@ const Footer = () => {
                     <a href="https://2gis.kg/bishkek/geo/70000001098544593"
                        target="_blank"
                        rel="noopener noreferrer"
-                       className="text-center text-[25px] flex flex-col  cursor-pointer ">
+                       className="text-center text-[25px] flex flex-col  cursor-pointer font-sans">
                         Кыргызстан, Бишкек
                         <span className="text-[15px] ">Барпы Алыкулова, 40Б/1</span>
                     </a>

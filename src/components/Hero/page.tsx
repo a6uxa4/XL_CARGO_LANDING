@@ -25,7 +25,7 @@ const Hero = () => {
                     <div className="text-center z-10 relative">
                         <a href="https://wa.me/996702155255"
                            className="md:py-[20px] md:px-[70px] rounded-[50px] bg-white md:text-[20px] lg:text-[35px] font-bold text-blue-600
-                           hover:text-white hover:bg-blue-600 hover:transition-all sm:text-[16px] sm:py-3 sm:px-5 " >связываться с менеджером
+                           hover:text-white hover:bg-blue-600 hover:transition-all sm:text-[16px] sm:py-3 sm:px-5 uppercase " >связываться с менеджером
                         </a>
                     </div>
                 </Container>
