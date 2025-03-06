@@ -7,7 +7,7 @@ const Redemption = () => {
             <Container>
 
                 <div className="bg-[#004190] p-10 border rounded-lg items-center shadow-2xl shadow-black border-none xs:py-4 sm:p-10">
-                    <h1 className="text-white text-[55px] font-extrabold font-sans xs:text-[20px] sm:text-[55px] ">
+                    <h1 className="text-white text-[55px] font-extrabold font-sans xs:text-[20px] sm:text-[55px] uppercase ">
                         Выкуп товара с китайских сайтов</h1>
                     <p className="text-white text-[17px] xs:text-[15px] sm:text-[17px]">Работаем со всеми известными китайскими маркетплейсами</p>
 
@@ -53,7 +53,7 @@ const Redemption = () => {
                             <Image
                                 src="/clock.svg"
                                 alt="svg"
-                                className="text-white lg:w-[150px]"
+                                className="text-white lg:w-[150px] xs:w-[130px] sm:w-[150px]"
                                 width={150}
                                 height={150}
                             />                            <div>
@@ -68,8 +68,6 @@ const Redemption = () => {
                             </div>
                         </div>
                     </div>
-
-
                 </div>
             </Container>
 

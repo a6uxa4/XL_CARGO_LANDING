@@ -13,7 +13,7 @@ const Footer = () => {
                 <Image
                     src="/logo.svg"
                     alt="Logo"
-                    width={150}
+                    width={100}
                     height={100}
                 />
                 <nav className="flex items-center gap-10 text-white sm:py-5 lg:py-0 sm:leading-none md:leading-5">
@@ -21,21 +21,21 @@ const Footer = () => {
                     <a href="https://2gis.kg/bishkek/geo/70000001098544593"
                        target="_blank"
                        rel="noopener noreferrer"
-                       className="text-center text-[25px] flex flex-col  cursor-pointer ">
+                       className="text-center text-[25px] flex flex-col  cursor-pointer font-sans">
                         Кыргызстан, Бишкек
                         <span className="text-[15px] ">Барпы Алыкулова, 40Б/1</span>
                     </a>
 
                 </nav>
                 <nav className="flex gap-4 text-[30px] cursor-pointer">
-                    <a href="https://t.me/+Yn4OkYESMvU5Mjky" className="text-white">
+                    <a href="https://t.me/semeteevnurs" className="text-white">
                         <FaTelegram/>
                     </a>
-                    <a href="https://api.whatsapp.com/send/?phone=996225905055&text&type=phone_number&app_absent=0"
+                    <a href="https://wa.me/996702155255"
                        className="text-white">
                         <IoMdCall/>
                     </a>
-                    <a href="https://www.instagram.com/ades_express_cargo/?igshid=NzZlODBkYWE4Ng%3D%3D"
+                    <a href="https://www.instagram.com/xlcargo.kg/"
                        className="text-white">
                         <FaInstagram/>
                     </a>
