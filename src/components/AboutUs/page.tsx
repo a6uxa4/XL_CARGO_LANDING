@@ -45,7 +45,7 @@ const AboutUs = () => {
           <p className="text-black xl:text-[27px] font-serif text-center mb-10 sm:text-[16px] md:text-[19px] lg:text-[25px] xs:text-[9px] ">
             Если вы уже работаете или планируете работать с маркетплейсами
             данная <br />
-            услуга именно для вас. ADES CARGO EXPRESS доставят любой ваш груз в
+            услуга именно для вас. XL CARGO доставят любой ваш груз в
             любом <br />
             размере и количестве. Взять на себя всю работу начиная с проверки
             товара, <br />
